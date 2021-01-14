@@ -5,7 +5,7 @@ Sometimes a was adding my addi
 
 ### How to run code:
 
-You can use "Code Runner" plugin to run any code in this project from where were you pointing out.
+You can use "Code Runner" plugin to run any code in this project from where you were pointing out.
 
 `install ext formulahendry.code-runner`
 
