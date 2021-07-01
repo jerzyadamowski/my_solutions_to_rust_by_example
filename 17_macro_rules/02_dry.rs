@@ -58,4 +58,4 @@ mod test {
   test!(sub_assign, 3u32, 2u32, 1u32);
 }
 
-//rustc --test 02_dry.rs && ./02_dry
+//"rust": "cd $dir && rustc --test -g $fileName --out-dir $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt/$fileNameWithoutExt"
