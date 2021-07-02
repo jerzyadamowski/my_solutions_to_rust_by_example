@@ -2,6 +2,6 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.executorMap": {
-    "rust": "cd $dir && rustc -g $fileName --out-dir $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt/$fileNameWithoutExt"
+    "rust": "cd $dir && rustc --test -g $fileName --out-dir $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt/$fileNameWithoutExt"
   },
 }
