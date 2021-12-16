@@ -4,4 +4,14 @@
   "code-runner.executorMap": {
     "rust": "cd $dir && rustc -g $fileName --out-dir $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt/$fileNameWithoutExt"
   },
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    // "editor.semanticHighlighting.enabled": false
+  },
+  "rust-analyzer.updates.askBeforeDownload": false,
+  "rust-analyzer.updates.channel": "nightly",
+  "rust-analyzer.lruCapacity": 1024,
+  "rust-analyzer.cargo.allFeatures": true,
 }

@@ -3,6 +3,7 @@
 mod ex01_helloworld;
 mod ex02_primitives;
 mod ex03_custom_types;
+mod ex04_variable_bindings;
 
 fn main() {
     // ex01_helloworld:
@@ -30,4 +31,12 @@ fn main() {
     ex03_custom_types::ex02_enums::example();
     ex03_custom_types::ex02_enums_type_aliases::example();
     ex03_custom_types::ex03_constants::example();
+
+    // ex04_variable_bindings:
+    ex04_variable_bindings::ex00_main::example();
+    ex04_variable_bindings::ex01_mutability::example();
+    ex04_variable_bindings::ex02_scope::example();
+    ex04_variable_bindings::ex02_shadowing::example();
+    ex04_variable_bindings::ex03_declare_first::example();
+    ex04_variable_bindings::ex04_freezing::example();
 }

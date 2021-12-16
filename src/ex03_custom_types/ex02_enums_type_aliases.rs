@@ -1,6 +1,6 @@
 enum VeryVerboseEnumOfThingsToDoWithNumbers {
     Add,
-    _Subtract,
+    Subtract,
 }
 
 // Creates a type alias
@@ -18,8 +18,11 @@ impl VeryVerboseEnumOfThingsToDoWithNumbers {
 pub fn example() {
     // We can refer to each variant via its alias, not its long and inconvenient
     // name.
-    let _x = Operations::Add;
+    let x = Operations::Add;
+    let y = Operations::Subtract;
 
-    let sum = _x.run(1, 2);
+    let sum = x.run(1, 2);
+    let diff = y.run(2, 1);
     println!("Add.run(1,2): {}", sum);
+    println!("Subtract.run(2,1): {}", diff);
 }
