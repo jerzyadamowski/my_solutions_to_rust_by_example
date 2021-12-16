@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
     // Variables can be type annotated.
     let _logical: bool = true;
 

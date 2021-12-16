@@ -19,7 +19,7 @@ impl fmt::Display for Complex {
     }
 }
 
-fn main() {
+pub fn example() {
     let point = Complex {
         real: 3.3,
         imag: -7.2,

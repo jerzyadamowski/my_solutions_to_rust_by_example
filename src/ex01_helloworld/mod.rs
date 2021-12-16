@@ -1,0 +1,9 @@
+pub mod ex00_main;
+pub mod ex01_comments;
+pub mod ex02_01_debug;
+pub mod ex02_01_pretty_print_debug;
+pub mod ex02_02_01_testcase_list;
+pub mod ex02_02_display;
+pub mod ex02_02_display_activity;
+pub mod ex02_03_formatted_print;
+pub mod ex02_03_print_formatting;

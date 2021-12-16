@@ -1,13 +1,16 @@
 #[derive(Debug)]
 struct Person<'a> {
-    name: &'a str,
-    age: u8,
+    _name: &'a str,
+    _age: u8,
 }
 
-fn main() {
+pub fn example() {
     let name = "Peter";
     let age = 27;
-    let peter = Person { name, age };
+    let peter = Person {
+        _name: name,
+        _age: age,
+    };
 
     // Pretty print
     println!("{:#?}", peter);
