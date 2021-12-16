@@ -4,17 +4,4 @@
   "code-runner.executorMap": {
     "rust": "cd $dir && rustc -g $fileName --out-dir $workspaceRoot/bin/$fileNameWithoutExt && $workspaceRoot/bin/$fileNameWithoutExt/$fileNameWithoutExt"
   },
-
-  "rust-analyzer.linkedProjects": [
-      {
-          "root_src": "/Users/jadamowski/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/library/",
-          "crates": [
-              {
-                  "root_module": "01_helloworld/02_01_pretty_print_debug.rs",
-                  "edition": "2021",
-                  "deps": [],
-              },
-          ]
-      }
-  ]
 }
