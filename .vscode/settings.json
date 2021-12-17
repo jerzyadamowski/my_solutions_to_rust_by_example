@@ -13,5 +13,5 @@
   "rust-analyzer.updates.askBeforeDownload": false,
   "rust-analyzer.updates.channel": "nightly",
   "rust-analyzer.lruCapacity": 1024,
-  "rust-analyzer.cargo.allFeatures": true,
+  "rust-analyzer.cargo.allFeatures": true
 }

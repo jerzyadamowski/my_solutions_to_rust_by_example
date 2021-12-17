@@ -2,36 +2,36 @@
 #![allow(dead_code)]
 
 pub enum Status {
-    Rich,
-    Poor,
+  Rich,
+  Poor,
 }
 
 pub enum Work {
-    Civilian,
-    Soldier,
+  Civilian,
+  Soldier,
 }
 
 pub fn example() {
-    // Explicitly `use` each name so they are available without
-    // manual scoping.
-    use Status::{Poor, Rich};
-    // Automatically `use` each name inside `Work`.
-    use Work::*;
+  // Explicitly `use` each name so they are available without
+  // manual scoping.
+  use Status::{Poor, Rich};
+  // Automatically `use` each name inside `Work`.
+  use Work::*;
 
-    // Equivalent to `Status::Poor`.
-    let status = Poor;
-    // Equivalent to `Work::Civilian`.
-    let work = Civilian;
+  // Equivalent to `Status::Poor`.
+  let status = Poor;
+  // Equivalent to `Work::Civilian`.
+  let work = Civilian;
 
-    match status {
-        // Note the lack of scoping because of the explicit `use` above.
-        Rich => println!("The rich have lots of money!"),
-        Poor => println!("The poor have no money..."),
-    }
+  match status {
+    // Note the lack of scoping because of the explicit `use` above.
+    Rich => println!("The rich have lots of money!"),
+    Poor => println!("The poor have no money..."),
+  }
 
-    match work {
-        // Note again the lack of scoping.
-        Civilian => println!("Civilians work!"),
-        Soldier => println!("Soldiers fight!"),
-    }
+  match work {
+    // Note again the lack of scoping.
+    Civilian => println!("Civilians work!"),
+    Soldier => println!("Soldiers fight!"),
+  }
 }

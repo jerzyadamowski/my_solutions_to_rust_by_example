@@ -4,6 +4,9 @@ mod ex01_helloworld;
 mod ex02_primitives;
 mod ex03_custom_types;
 mod ex04_variable_bindings;
+mod ex05_types;
+mod ex06_conversion;
+mod ex07_expressions;
 
 fn main() {
     // ex01_helloworld:
@@ -39,4 +42,22 @@ fn main() {
     ex04_variable_bindings::ex02_shadowing::example();
     ex04_variable_bindings::ex03_declare_first::example();
     ex04_variable_bindings::ex04_freezing::example();
+
+    // ex05_types:
+    ex05_types::ex01_casting::example();
+    ex05_types::ex02_literals::example();
+    ex05_types::ex03_inference::example();
+    ex05_types::ex04_aliasing::example();
+
+    // ex06_conversion:
+    ex06_conversion::ex01_from_custom::example();
+    ex06_conversion::ex01_from_string::example();
+    ex06_conversion::ex01_into::exmaple();
+    ex06_conversion::ex02_tryfrom_tryinto::example();
+    ex06_conversion::ex03_from_string::example();
+    ex06_conversion::ex03_to_string::example();
+
+    // ex07_expressions:
+    ex07_expressions::ex00_blocks::example();
+    ex07_expressions::ex00_expr::example();
 }

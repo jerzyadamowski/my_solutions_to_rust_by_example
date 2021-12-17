@@ -1,23 +1,23 @@
 pub fn example() {
-    // Declare a variable binding
-    let a_binding;
+  // Declare a variable binding
+  let a_binding;
 
-    {
-        let x = 2;
+  {
+    let x = 2;
 
-        // Initialize the binding
-        a_binding = x * x;
-    }
+    // Initialize the binding
+    a_binding = x * x;
+  }
 
-    println!("a binding: {}", a_binding);
+  println!("a binding: {}", a_binding);
 
-    let another_binding;
+  let another_binding;
 
-    // Error! Use of uninitialized binding
-    // println!("another binding: {}", another_binding);
-    // FIXME ^ Comment out this line
+  // Error! Use of uninitialized binding
+  // println!("another binding: {}", another_binding);
+  // FIXME ^ Comment out this line
 
-    another_binding = 1;
+  another_binding = 1;
 
-    println!("another binding: {}", another_binding);
+  println!("another binding: {}", another_binding);
 }

@@ -1,13 +1,13 @@
 fn main() {
   #[derive(Debug)]
   struct Person {
-      name: String,
-      age: u8,
+    name: String,
+    age: u8,
   }
 
   let person = Person {
-      name: String::from("Alice"),
-      age: 20,
+    name: String::from("Alice"),
+    age: 20,
   };
 
   // `name` is moved out of person, but `age` is referenced
