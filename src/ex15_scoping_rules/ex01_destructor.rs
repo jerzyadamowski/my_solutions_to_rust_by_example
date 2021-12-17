@@ -7,6 +7,6 @@ impl Drop for ToDrop {
 }
 
 pub fn example() {
-  let x = ToDrop;
+  let _x = ToDrop;
   println!("Made a ToDrop!");
 }

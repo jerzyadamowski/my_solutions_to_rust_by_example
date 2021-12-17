@@ -13,6 +13,9 @@ mod ex10_modules;
 mod ex11_crates;
 mod ex13_attributes;
 mod ex14_generics;
+mod ex15_scoping_rules;
+mod ex16_traits;
+mod ex17_macro_rules;
 
 fn main() {
   // ex01_helloworld:
@@ -142,4 +145,48 @@ fn main() {
   ex14_generics::ex08_01_associated_types::example();
   ex14_generics::ex09_01_phantom_types_clarification::example();
   ex14_generics::ex09_phantom_types::example();
+
+  // ex15_scoping_rules:
+  ex15_scoping_rules::ex01_destructor::example();
+  ex15_scoping_rules::ex01_raii::example();
+  ex15_scoping_rules::ex02_01_mutability::example();
+  ex15_scoping_rules::ex02_02_partial_move::example();
+  ex15_scoping_rules::ex02_ownership_and_moves::example();
+  ex15_scoping_rules::ex03_01_mutability::example();
+  ex15_scoping_rules::ex03_02_aliasing::example();
+  ex15_scoping_rules::ex03_03_ref_pattern::example();
+  ex15_scoping_rules::ex03_borrowing::example();
+  ex15_scoping_rules::ex04_01_explicit_annotation::example();
+  ex15_scoping_rules::ex04_02_functions::example();
+  ex15_scoping_rules::ex04_03_methods::example();
+  ex15_scoping_rules::ex04_04_structs::example();
+  ex15_scoping_rules::ex04_05_traits::example();
+  ex15_scoping_rules::ex04_06_bounds::example();
+  ex15_scoping_rules::ex04_07_coercion::example();
+  ex15_scoping_rules::ex04_08_static_ref_lifetime::example();
+  ex15_scoping_rules::ex04_08_static_trait_bound::example();
+  ex15_scoping_rules::ex04_09_elision::example();
+  ex15_scoping_rules::ex04_lifetimes::example();
+
+  // ex16_traits:
+  ex16_traits::ex00_traits::example();
+  ex16_traits::ex01_derive::example();
+  ex16_traits::ex02_returing_traits::example();
+  ex16_traits::ex03_operator_overloading::example();
+  ex16_traits::ex04_drop::example();
+  ex16_traits::ex05_iterators::example();
+  ex16_traits::ex06_01_clousure::example();
+  ex16_traits::ex06_impl_trait::example();
+  ex16_traits::ex07_clone::example();
+  ex16_traits::ex08_supertraits::example();
+  ex16_traits::ex09_disambiguating::example();
+
+  // ex17_macro_rules:
+  ex17_macro_rules::ex00_main::example();
+  ex17_macro_rules::ex01_01_designators::example();
+  ex17_macro_rules::ex01_02_overload::example();
+  ex17_macro_rules::ex01_03_repeat::example();
+  ex17_macro_rules::ex02_dry::example();
+  ex17_macro_rules::ex03_dsl::example();
+  ex17_macro_rules::ex04_variadics::example();
 }

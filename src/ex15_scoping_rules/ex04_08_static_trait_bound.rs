@@ -11,5 +11,5 @@ pub fn example() {
 
   // oops, &i only has the lifetime defined by the scope of
   // main(), so it's not 'static:
-  print_it(&i);
+  // print_it(&i);
 }

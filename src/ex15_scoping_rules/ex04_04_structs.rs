@@ -6,8 +6,8 @@ struct Borrowed<'a>(&'a i32);
 // Similarly, both references here must outlive this structure.
 #[derive(Debug)]
 struct NamedBorrowed<'a> {
-  x: &'a i32,
-  y: &'a i32,
+  _x: &'a i32,
+  _y: &'a i32,
 }
 
 // An enum which is either an `i32` or a reference to one.
@@ -22,7 +22,7 @@ pub fn example() {
   let y = 15;
 
   let single = Borrowed(&x);
-  let double = NamedBorrowed { x: &x, y: &y };
+  let double = NamedBorrowed { _x: &x, _y: &y };
   let reference = Either::Ref(&x);
   let number = Either::Num(y);
 
