@@ -16,6 +16,7 @@ mod ex14_generics;
 mod ex15_scoping_rules;
 mod ex16_traits;
 mod ex17_macro_rules;
+mod ex18_error_handling;
 
 fn main() {
   // ex01_helloworld:
@@ -186,7 +187,21 @@ fn main() {
   ex17_macro_rules::ex01_01_designators::example();
   ex17_macro_rules::ex01_02_overload::example();
   ex17_macro_rules::ex01_03_repeat::example();
-  ex17_macro_rules::ex02_dry::example();
+  // ex17_macro_rules::ex02_dry::example();
   ex17_macro_rules::ex03_dsl::example();
   ex17_macro_rules::ex04_variadics::example();
+
+  // ex18_error_handling:
+  ex18_error_handling::ex01_panic::example();
+  ex18_error_handling::ex02_01_unpacking_with_question_mark::example();
+  ex18_error_handling::ex02_02_combinators_map::example();
+  ex18_error_handling::ex02_03_combinators_and_then::example();
+  ex18_error_handling::ex02_option_unwrap::example();
+  ex18_error_handling::ex03_01_map_for_result::example();
+  ex18_error_handling::ex03_01_no_map_for_result::example();
+  ex18_error_handling::ex03_02_alias_result::example();
+  ex18_error_handling::ex03_03_early_return::example();
+  ex18_error_handling::ex03_04_question_mark::example();
+  ex18_error_handling::ex03_result::example();
+  ex18_error_handling::ex03_result_main::example();
 }

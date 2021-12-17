@@ -29,8 +29,11 @@ macro_rules! op {
 }
 
 // Implement `add_assign`, `mul_assign`, and `sub_assign` functions.
+
 op!(add_assign, Add, +=, add);
+
 op!(mul_assign, Mul, *=, mul);
+
 op!(sub_assign, Sub, -=, sub);
 
 mod test {
