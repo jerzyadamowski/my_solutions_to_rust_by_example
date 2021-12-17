@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   use std::sync::Arc;
   use std::thread;
 

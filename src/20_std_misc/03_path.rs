@@ -1,6 +1,6 @@
 use std::path::Path;
 
-fn main() {
+pub fn example() {
   // Create a `Path` from an `&'static str`
   let path = Path::new(".");
 

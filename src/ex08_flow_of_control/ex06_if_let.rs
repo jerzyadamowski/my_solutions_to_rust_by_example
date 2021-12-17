@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   // All have type `Option<i32>`
   let number = Some(7);
   let letter: Option<i32> = None;

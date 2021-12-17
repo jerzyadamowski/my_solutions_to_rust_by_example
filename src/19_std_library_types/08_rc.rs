@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-fn main() {
+pub fn example() {
   let rc_examples = "Rc examples".to_string();
   {
     println!("--- rc_a is created ---");

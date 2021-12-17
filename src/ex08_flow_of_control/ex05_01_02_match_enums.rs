@@ -14,7 +14,7 @@ enum Color {
   CMYK(u32, u32, u32, u32),
 }
 
-fn main() {
+pub fn example() {
   let color = Color::RGB(122, 17, 40);
   // TODO ^ Try different variants for `color`
 

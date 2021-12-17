@@ -63,7 +63,7 @@ impl Animal for Sheep {
   }
 }
 
-fn main() {
+pub fn example() {
   // Type annotation is necessary in this case.
   let mut dolly: Sheep = Animal::new("Dolly");
   // TODO ^ Try removing the type annotations.

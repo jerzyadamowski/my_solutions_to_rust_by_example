@@ -24,7 +24,7 @@ macro_rules! print_result {
   };
 }
 
-fn main() {
+pub fn example() {
   foo();
   bar();
 

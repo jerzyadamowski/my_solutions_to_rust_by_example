@@ -21,7 +21,7 @@ fn drink(drink: Option<&str>) {
   println!("I love {}s!!!!!", inside);
 }
 
-fn main() {
+pub fn example() {
   let water = Some("water");
   let lemonade = Some("lemonade");
   let void = None;

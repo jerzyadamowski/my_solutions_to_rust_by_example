@@ -3,7 +3,7 @@ pub fn example() {
   let x = 5;
 
   // expression;
-  x;
-  x + 1;
+  let _ = x;
+  let __ = x + 1;
   15;
 }

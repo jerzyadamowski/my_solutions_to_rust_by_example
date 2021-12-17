@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   // Make `optional` of type `Option<i32>`
   let mut optional = Some(0);
 

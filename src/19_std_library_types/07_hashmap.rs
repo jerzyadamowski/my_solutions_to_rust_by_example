@@ -14,7 +14,7 @@ fn call(number: &str) -> &str {
   }
 }
 
-fn main() {
+pub fn example() {
   let mut contacts = HashMap::new();
 
   contacts.insert("Daniel", "798-1364");

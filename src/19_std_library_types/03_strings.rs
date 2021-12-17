@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   // (all the type annotations are superfluous)
   // A reference to a string allocated in read only memory
   let pangram: &'static str = "the quick brown fox jumps over the lazy dog";

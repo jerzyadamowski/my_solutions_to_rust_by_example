@@ -6,7 +6,7 @@ struct Unit;
 #[derive(Clone, Debug)]
 struct Pair(Box<i32>, Box<i32>);
 
-fn main() {
+pub fn example() {
   // Instantiate `Unit`
   let unit = Unit;
   // Copy `Unit`, there are no resources to move

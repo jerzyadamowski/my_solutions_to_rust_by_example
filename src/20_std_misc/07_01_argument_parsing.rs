@@ -18,7 +18,7 @@ match_args {{increase|decrease}} <integer>
   );
 }
 
-fn main() {
+pub fn example() {
   let args: Vec<String> = env::args().collect();
 
   match args.len() {

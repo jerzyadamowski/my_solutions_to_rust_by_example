@@ -29,7 +29,7 @@ fn random_animal(random_number: f64) -> Box<dyn Animal> {
   }
 }
 
-fn main() {
+pub fn example() {
   let random_number = 0.234;
   let animal = random_animal(random_number);
   println!(

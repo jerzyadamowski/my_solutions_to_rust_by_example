@@ -1,6 +1,6 @@
 use std::slice;
 
-fn main() {
+pub fn example() {
   let some_vector = vec![1, 2, 3, 4];
 
   let pointer = some_vector.as_ptr();

@@ -4,7 +4,7 @@ pub fn example() {
   'outer: loop {
     println!("Entered the outer loop");
 
-    'inner: loop {
+    '_inner: loop {
       println!("Entered the inner loop");
 
       // This would break only the inner loop

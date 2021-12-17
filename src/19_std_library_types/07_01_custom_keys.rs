@@ -31,7 +31,7 @@ fn try_logon<'a>(accounts: &Accounts<'a>, username: &'a str, password: &'a str) 
   }
 }
 
-fn main() {
+pub fn example() {
   let mut accounts: Accounts = HashMap::new();
 
   let account = Account {

@@ -1,5 +1,5 @@
 extern crate foo;
 
-fn main() {
+pub fn example() {
   foo::r#try();
 }

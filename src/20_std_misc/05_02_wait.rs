@@ -1,6 +1,6 @@
 use std::process::Command;
 
-fn main() {
+pub fn example() {
   let mut child = Command::new("sleep").arg("5").spawn().unwrap();
   let _result = child.wait().unwrap();
 

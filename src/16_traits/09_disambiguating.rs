@@ -26,7 +26,7 @@ impl AgeWidget for Form {
   }
 }
 
-fn main() {
+pub fn example() {
   let form = Form {
     username: "rustacean".to_owned(),
     age: 28,

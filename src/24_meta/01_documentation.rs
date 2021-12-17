@@ -35,7 +35,7 @@ impl Person {
   }
 }
 
-fn main() {
+pub fn example() {
   let john = Person::new("John");
   john.hello();
 }

@@ -1,7 +1,7 @@
 use std::thread;
 
 // This is the `main` thread
-fn main() {
+pub fn example() {
   // This is our data to process.
   // We will calculate the sum of all digits via a threaded  map-reduce algorithm.
   // Each whitespace separated chunk will be handled in a different thread.

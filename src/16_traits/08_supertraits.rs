@@ -29,4 +29,4 @@ fn comp_sci_student_greeting(student: &dyn CompSciStudent) -> String {
   )
 }
 
-fn main() {}
+pub fn example() {}

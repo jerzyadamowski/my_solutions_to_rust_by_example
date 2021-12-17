@@ -1,0 +1,14 @@
+pub mod ex00_main;
+pub mod ex01_functions;
+pub mod ex02_impl;
+pub mod ex02_implementation;
+pub mod ex03_traits;
+pub mod ex04_01_empty_bounds;
+pub mod ex04_bounds;
+pub mod ex05_multiple_bounds;
+pub mod ex06_where;
+pub mod ex07_new_type_idiom;
+pub mod ex08_01_assiociated_problem;
+pub mod ex08_01_associated_types;
+pub mod ex09_01_phantom_types_clarification;
+pub mod ex09_phantom_types;

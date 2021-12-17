@@ -1,6 +1,6 @@
 use std::num::ParseIntError;
 
-fn main() -> Result<(), ParseIntError> {
+pub fn example() -> Result<(), ParseIntError> {
   let number_str = "10";
   let number = match number_str.parse::<i32>() {
     Ok(number) => number,

@@ -1,6 +1,6 @@
 use std::process::Command;
 
-fn main() {
+pub fn example() {
   let output = Command::new("rustc")
     .arg("--version")
     .output()

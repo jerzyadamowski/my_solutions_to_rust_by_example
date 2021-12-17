@@ -16,7 +16,7 @@ fn cos(z: Complex) -> Complex {
   unsafe { ccosf(z) }
 }
 
-fn main() {
+pub fn example() {
   // z = -1 + 0i
   let z = Complex { re: -1., im: 0. };
 

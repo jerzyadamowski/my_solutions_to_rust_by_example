@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let pair = (2, -2);
   // TODO ^ Try different values for `pair`
 

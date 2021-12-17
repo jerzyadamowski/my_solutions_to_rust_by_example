@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let triple = (0, -2, 3);
   // TODO ^ Try different values for `triple`
 

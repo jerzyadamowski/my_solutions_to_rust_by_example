@@ -6,7 +6,7 @@
 /// let res = try::try_div(10, 2)?;
 /// # Ok(()) // returning from try_main
 /// # }
-/// # fn main() { // starting main that'll unwrap()
+/// # pub fn example() { // starting main that'll unwrap()
 /// #    try_main().unwrap(); // calling try_main and unwrapping
 /// #                         // so that test will panic in case of error
 /// # }

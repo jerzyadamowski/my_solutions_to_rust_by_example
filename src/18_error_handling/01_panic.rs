@@ -7,7 +7,7 @@ fn drink(beverage: &str) {
   println!("Some refreshing {} is all I need.", beverage);
 }
 
-fn main() {
+pub fn example() {
   drink("water");
   drink("lemonade");
 }

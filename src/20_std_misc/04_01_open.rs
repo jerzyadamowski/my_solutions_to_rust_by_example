@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;
 
-fn main() {
+pub fn example() {
   // Create a path to the desired file
   let path = Path::new("hello.txt");
   let display = path.display();

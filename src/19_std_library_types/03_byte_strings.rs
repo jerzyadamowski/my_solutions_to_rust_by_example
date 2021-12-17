@@ -1,6 +1,6 @@
 use std::str;
 
-fn main() {
+pub fn example() {
   // Note that this is not actually a `&str`
   let bytestring: &[u8; 21] = b"this is a byte string";
 

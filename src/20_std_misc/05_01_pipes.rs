@@ -3,7 +3,7 @@ use std::process::{Command, Stdio};
 
 static PANGRAM: &'static str = "the quick brown fox jumped over the lazy dog\n";
 
-fn main() {
+pub fn example() {
   // Spawn the `wc` command
   let process = match Command::new("wc")
     .stdin(Stdio::piped())

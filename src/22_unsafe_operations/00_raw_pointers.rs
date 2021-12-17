@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let raw_p: *const u32 = &10;
 
   unsafe {

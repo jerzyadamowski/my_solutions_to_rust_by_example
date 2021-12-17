@@ -9,7 +9,7 @@ fn division(dividend: i32, divisor: i32) -> i32 {
 }
 
 // The `main` task
-fn main() {
+pub fn example() {
   // Heap allocated integer
   let _x = Box::new(0i32);
 

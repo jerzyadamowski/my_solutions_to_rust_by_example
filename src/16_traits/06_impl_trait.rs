@@ -17,7 +17,7 @@ fn combine_vecs(v: Vec<i32>, u: Vec<i32>) -> impl Iterator<Item = i32> {
   v.into_iter().chain(u.into_iter()).cycle()
 }
 
-fn main() {
+pub fn example() {
   let v1 = vec![1, 2, 3];
   let v2 = vec![4, 5];
   let mut v3 = combine_vecs(v1, v2);

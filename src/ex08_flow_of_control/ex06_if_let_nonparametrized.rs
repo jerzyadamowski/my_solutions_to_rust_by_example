@@ -2,10 +2,10 @@
 // That is why comparing Foo::Bar == a fails below.
 enum Foo {
   Bar,
-  Zone,
+  _Zone,
 }
 
-fn main() {
+pub fn example() {
   let a = Foo::Bar;
 
   // Variable a matches Foo::Bar

@@ -23,7 +23,7 @@ impl Person {
   }
 }
 
-fn main() {
+pub fn example() {
   let p = Person {
     job: Some(Job {
       phone_number: Some(PhoneNumber {

@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let number = 13;
   // TODO ^ Try different values for `number`
 

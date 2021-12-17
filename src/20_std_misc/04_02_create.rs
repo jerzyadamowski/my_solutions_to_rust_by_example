@@ -11,7 +11,7 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;
 
-fn main() {
+pub fn example() {
   let path = Path::new("lorem_ipsum.txt");
   let display = path.display();
 

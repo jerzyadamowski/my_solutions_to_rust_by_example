@@ -11,7 +11,9 @@ pub fn example() {
 
   let z = {
     // The semicolon suppresses this expression and `()` is assigned to `z`
-    2 * x;
+    let _ = 2 * x;
+    // Without semicolon
+    2 * x
   };
 
   println!("x is {:?}", x);

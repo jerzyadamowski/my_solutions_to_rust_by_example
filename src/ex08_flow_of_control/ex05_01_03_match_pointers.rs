@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   // Assign a reference of type `i32`. The `&` signifies there
   // is a reference being assigned.
   let reference = &4;

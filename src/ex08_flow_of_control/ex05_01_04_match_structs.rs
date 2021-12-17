@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   struct Foo {
     x: (u32, u32),
     y: u32,

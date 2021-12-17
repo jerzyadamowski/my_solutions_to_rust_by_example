@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let raw_str = r"Escapes don't work here: \x3F \u{211D}";
   println!("{}", raw_str);
 

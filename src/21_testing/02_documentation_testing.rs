@@ -1,7 +1,7 @@
 /// First line is a short summary describing function.
 ///
 /// The next lines present detailed documentation. Code blocks start with
-/// triple backquotes and have implicit `fn main()` inside
+/// triple backquotes and have implicit `pub fn example()` inside
 /// and `extern crate <cratename>`. Assume we're testing `doccomments` crate:
 ///
 /// ```

@@ -5,7 +5,7 @@ fn multiply(first_number_str: &str, second_number_str: &str) -> i32 {
   first_number * second_number
 }
 
-fn main() {
+pub fn example() {
   let twenty = multiply("10", "2");
   println!("double is {}", twenty);
 

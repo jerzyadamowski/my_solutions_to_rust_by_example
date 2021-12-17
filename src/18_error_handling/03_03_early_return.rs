@@ -21,7 +21,7 @@ fn print(result: Result<i32, ParseIntError>) {
   }
 }
 
-fn main() {
+pub fn example() {
   print(multiply("10", "2"));
   print(multiply("t", "2"));
 }

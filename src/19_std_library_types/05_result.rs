@@ -52,7 +52,7 @@ fn op(x: f64, y: f64) -> f64 {
   }
 }
 
-fn main() {
+pub fn example() {
   // Will this fail?
   println!("{}", op(1.0, 10.0));
 }

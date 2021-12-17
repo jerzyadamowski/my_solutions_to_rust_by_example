@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let names = vec!["Bob", "Frank", "Ferris"];
 
   for name in names.iter() {

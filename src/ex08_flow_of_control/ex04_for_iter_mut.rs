@@ -1,4 +1,4 @@
-fn main() {
+pub fn example() {
   let mut names = vec!["Bob", "Frank", "Ferris"];
 
   for name in names.iter_mut() {

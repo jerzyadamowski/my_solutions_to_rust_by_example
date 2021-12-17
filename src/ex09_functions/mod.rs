@@ -1,0 +1,15 @@
+pub mod ex00_main;
+pub mod ex01_methods;
+pub mod ex02_01_capturing;
+pub mod ex02_01_capturing_move;
+pub mod ex02_02_capturing_as_input;
+pub mod ex02_03_type_anonimity;
+pub mod ex02_04_input;
+pub mod ex02_05_output;
+pub mod ex02_06_01_iterator_any;
+pub mod ex02_06_02_position;
+pub mod ex02_06_02_through_iterators;
+pub mod ex02_closures;
+pub mod ex03_higher_order_functions;
+pub mod ex04_diverging_functions;
+pub mod ex04_diverging_no_return;

@@ -9,7 +9,7 @@ impl Drop for Droppable {
   }
 }
 
-fn main() {
+pub fn example() {
   let _a = Droppable { name: "a" };
 
   // block A

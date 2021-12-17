@@ -30,7 +30,7 @@ fn touch(path: &Path) -> io::Result<()> {
   }
 }
 
-fn main() {
+pub fn example() {
   println!("`mkdir a`");
   // Create a directory, returns `io::Result<()>`
   match fs::create_dir("a") {

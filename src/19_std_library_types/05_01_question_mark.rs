@@ -58,6 +58,6 @@ mod checked {
   }
 }
 
-fn main() {
+pub fn example() {
   checked::op(1.0, 10.0);
 }

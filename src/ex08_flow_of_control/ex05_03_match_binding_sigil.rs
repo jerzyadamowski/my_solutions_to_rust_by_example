@@ -3,7 +3,7 @@ fn age() -> u32 {
   15
 }
 
-fn main() {
+pub fn example() {
   println!("Tell me what type of person you are");
 
   match age() {
