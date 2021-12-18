@@ -21,7 +21,7 @@ fn new_edition(book: &mut Book) {
   println!("I mutably borrowed {} - {} edition", book.title, book.year);
 }
 
-fn main() {
+pub fn example() {
   // Create an immutable Book named `immutabook`
   let immutabook = Book {
     // string literals have type `&'static str`
