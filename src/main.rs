@@ -203,5 +203,5 @@ fn main() {
   ex18_error_handling::ex03_03_early_return::example();
   ex18_error_handling::ex03_04_question_mark::example();
   ex18_error_handling::ex03_result::example();
-  ex18_error_handling::ex03_result_main::example();
+  let _result = ex18_error_handling::ex03_result_main::example();
 }

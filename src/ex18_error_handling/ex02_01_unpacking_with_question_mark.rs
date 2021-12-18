@@ -10,7 +10,7 @@ struct Job {
 #[derive(Clone, Copy)]
 struct PhoneNumber {
   area_code: Option<u8>,
-  number: u32,
+  _number: u32,
 }
 
 impl Person {
@@ -28,7 +28,7 @@ pub fn example() {
     job: Some(Job {
       phone_number: Some(PhoneNumber {
         area_code: Some(61),
-        number: 439222222,
+        _number: 439222222,
       }),
     }),
   };
