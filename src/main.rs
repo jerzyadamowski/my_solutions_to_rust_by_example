@@ -17,6 +17,7 @@ mod ex15_scoping_rules;
 mod ex16_traits;
 mod ex17_macro_rules;
 mod ex18_error_handling;
+mod ex19_std_library_types;
 
 fn main() {
   // ex01_helloworld:
@@ -204,4 +205,20 @@ fn main() {
   ex18_error_handling::ex03_04_question_mark::example();
   ex18_error_handling::ex03_result::example();
   let _result = ex18_error_handling::ex03_result_main::example();
+
+  ex19_std_library_types::ex01_box_stack_heap::example();
+  ex19_std_library_types::ex02_vectors::example();
+  ex19_std_library_types::ex03_byte_strings::example();
+  ex19_std_library_types::ex03_escapes_literals::example();
+  ex19_std_library_types::ex03_raw::example();
+  ex19_std_library_types::ex03_strings::example();
+  ex19_std_library_types::ex04_option::example();
+  ex19_std_library_types::ex05_01_question_mark::example();
+  ex19_std_library_types::ex05_result::example();
+  ex19_std_library_types::ex06_panic::example();
+  ex19_std_library_types::ex07_01_custom_keys::example();
+  ex19_std_library_types::ex07_02_hash_set::example();
+  ex19_std_library_types::ex07_hashmap::example();
+  ex19_std_library_types::ex08_rc::example();
+  ex19_std_library_types::ex09_arc::example();
 }
