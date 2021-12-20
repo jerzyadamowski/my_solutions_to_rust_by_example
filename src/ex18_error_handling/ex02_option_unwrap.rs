@@ -13,7 +13,8 @@ fn give_adult(drink: Option<&str>) {
 // All drinks are handled implicitly using `unwrap`.
 fn drink(drink: Option<&str>) {
   // `unwrap` returns a `panic` when it receives a `None`.
-  let inside = drink.unwrap();
+  // change to unwrap to get panic!
+  let inside = drink.unwrap_or_default();
   if inside == "lemonade" {
     panic!("AAAaaaaa!!!!");
   }

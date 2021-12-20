@@ -1,6 +1,6 @@
 [package]
 name = "rust-playground"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Jerzy Adamowski <jerzyadamowski@outlook.com>"]
 edition = "2021"
 

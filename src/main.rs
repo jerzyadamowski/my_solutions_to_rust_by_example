@@ -18,6 +18,10 @@ mod ex16_traits;
 mod ex17_macro_rules;
 mod ex18_error_handling;
 mod ex19_std_library_types;
+mod ex20_std_misc;
+mod ex22_unsafe_operations;
+mod ex23_compability;
+mod ex24_meta;
 
 fn main() {
   // ex01_helloworld:
@@ -206,6 +210,7 @@ fn main() {
   ex18_error_handling::ex03_result::example();
   let _result = ex18_error_handling::ex03_result_main::example();
 
+  // ex19_std_library_types:
   ex19_std_library_types::ex01_box_stack_heap::example();
   ex19_std_library_types::ex02_vectors::example();
   ex19_std_library_types::ex03_byte_strings::example();
@@ -221,4 +226,31 @@ fn main() {
   ex19_std_library_types::ex07_hashmap::example();
   ex19_std_library_types::ex08_rc::example();
   ex19_std_library_types::ex09_arc::example();
+
+  // ex20_std_misc:
+  ex20_std_misc::ex01_01_map_reduce::example();
+  ex20_std_misc::ex01_threads::example();
+  ex20_std_misc::ex02_channels::example();
+  ex20_std_misc::ex03_path::example();
+  ex20_std_misc::ex04_01_open::example();
+  ex20_std_misc::ex04_02_create::example();
+  ex20_std_misc::ex04_03_read_lines::example();
+  ex20_std_misc::ex05_01_pipes::example();
+  ex20_std_misc::ex05_02_wait::example();
+  ex20_std_misc::ex05_child_processes::example();
+  ex20_std_misc::ex06_filesystem_operations::example();
+  ex20_std_misc::ex07_01_argument_parsing::example();
+  ex20_std_misc::ex07_program_arguments::example();
+  ex20_std_misc::ex08_foreign_function_interface::example();
+
+  // ex22_unsafe_operations:
+  ex22_unsafe_operations::ex00_calling_unsafe_functions::example();
+  ex22_unsafe_operations::ex00_raw_pointers::example();
+
+  // ex23_compability:
+  ex23_compability::ex01_raw_indentifiers::example();
+
+  // ex24_meta:
+  ex24_meta::ex01_documentation::example();
+  // ex24_meta::ex01_inline::example();
 }

@@ -1,0 +1,14 @@
+pub mod ex01_01_map_reduce;
+pub mod ex01_threads;
+pub mod ex02_channels;
+pub mod ex03_path;
+pub mod ex04_01_open;
+pub mod ex04_02_create;
+pub mod ex04_03_read_lines;
+pub mod ex05_01_pipes;
+pub mod ex05_02_wait;
+pub mod ex05_child_processes;
+pub mod ex06_filesystem_operations;
+pub mod ex07_01_argument_parsing;
+pub mod ex07_program_arguments;
+pub mod ex08_foreign_function_interface;

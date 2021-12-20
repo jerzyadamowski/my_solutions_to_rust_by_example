@@ -1,4 +1,4 @@
-#![crate_name = "doc"]
+// #![crate_name = "doc"]
 
 /// A human being is represented here
 pub struct Person {

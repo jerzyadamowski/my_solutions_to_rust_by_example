@@ -38,5 +38,6 @@ pub fn example() {
   );
 
   // Unwrapping a `None` variant will `panic!`
-  println!("{:?} unwraps to {:?}", none, none.unwrap());
+  // change to unwrap to get panic!
+  println!("{:?} unwraps to {:?}", none, none.unwrap_or(0));
 }
