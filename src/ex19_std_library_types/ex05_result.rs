@@ -54,5 +54,6 @@ fn op(x: f64, y: f64) -> f64 {
 
 pub fn example() {
   // Will this fail?
-  println!("{}", op(1.0, 10.0));
+  // swap places x with y
+  println!("{}", op(10.0, 1.0));
 }

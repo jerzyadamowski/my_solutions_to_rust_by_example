@@ -2,7 +2,10 @@
 fn division(dividend: i32, divisor: i32) -> i32 {
   if divisor == 0 {
     // Division by zero triggers a panic
-    panic!("division by zero");
+    // uncomment line below to get panic!
+    // panic!("division by zero");
+    eprintln!("division by zero");
+    0
   } else {
     dividend / divisor
   }

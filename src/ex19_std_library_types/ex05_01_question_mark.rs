@@ -59,5 +59,6 @@ mod checked {
 }
 
 pub fn example() {
-  checked::op(1.0, 10.0);
+  // swap places x with y
+  checked::op(10.0, 1.0);
 }
