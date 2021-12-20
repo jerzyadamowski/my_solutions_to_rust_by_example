@@ -2,3 +2,6 @@ target/
 bin/
 /target
 .vscode/sftp.json
+lorem_ipsum.txt
+a/b.txt
+a/c/b.txt
